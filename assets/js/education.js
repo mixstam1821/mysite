@@ -10,9 +10,9 @@ const moocscards = [
     moocLink: "https://www.coursera.org/browse/data-science",
   },
   {
-    title: "Cryptography",
+    title: "Python",
     cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    moocLink: "https://www.udemy.com/topic/python/",
   },
   {
     title: "Machine Learning",
@@ -51,9 +51,9 @@ const moocscards = [
       "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
   },
   {
-    title: "NodeJS, Express and MongoDB",
+    title: "Xarray",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+    moocLink: "https://www.coursera.org/projects/xarray",
   },
   {
     title: "XML-AJAX",
