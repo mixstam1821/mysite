@@ -4,7 +4,7 @@
 // Changed names and descriptions of references
 const referenceTable = document.querySelector(".pain");
 
-const references = [
+const references = [/*
   {
     sl1: 1,
     name1 : "Smaranjit Ghose",
@@ -36,7 +36,7 @@ const references = [
         image2 : "https://avatars.githubusercontent.com/u/59832779?v=4",
         message2 : "John and I worked together during a hackathon and the thing that surprised me the most about him was his knowledge of fundamentals. He offered sincere help to the team throughout the competition. He is an impressive problem solver who is able to address complex issues strategically and confidently.",
   },
-];
+*/];
 
 AOS.init();
 const fillData = () => {
