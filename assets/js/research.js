@@ -10,9 +10,9 @@ const research = [
    /* conferences:
       "The 58th Annual Meeting of the Association for Computational Linguistics",
     researchYr: 2020,
-    citebox: "popup1",
+    citebox: "popup1", */
     image: "assets/images/research-page/inteferenceNetwork.png",
-    citation: {
+   /* citation: {
       vancouver:
         "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
     },
@@ -28,9 +28,9 @@ const research = [
     /*conferences:
       "The 58th Annual Meeting of the Association for Computational Linguistics",
     researchYr: 2020,
-    citebox: "popup2",
+    citebox: "popup2",*/
     image: "assets/images/research-page/crossLingual.png",
-    citation: {
+  /*  citation: {
       vancouver:
         "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
     },
@@ -68,8 +68,8 @@ const fillData = () => {
                     <div class = "authors"> ${authors} </div> 
                     
  /*                   <div class="rConferences"> ${conferences} 
-                        <div class="researchY">${researchYr}</div> */
-                    </div> 
+                        <div class="researchY">${researchYr}</div> 
+                    </div> */
                     
 /*                    <!--CITE BUTTON-->
                     <div class="d-flex" style="margin-right:5%;">
