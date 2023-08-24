@@ -67,11 +67,11 @@ const fillData = () => {
                     <a href="#0" class="paperTitle"> ${title} </a> 
                     <div class = "authors"> ${authors} </div> 
                     
- /*                   <div class="rConferences"> ${conferences} 
+ <!--                   <div class="rConferences"> ${conferences} 
                         <div class="researchY">${researchYr}</div> 
-                    </div> */
+                    </div> -->
                     
-/*                    <!--CITE BUTTON-->
+<!--                    <!--CITE BUTTON-->
                     <div class="d-flex" style="margin-right:5%;">
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
                             ABSTRACT
@@ -90,7 +90,7 @@ const fillData = () => {
                         <div class="card-body">
                             ${citation.vancouver}    
                         </div>
-                    </div>*/
+                    </div>   -->
                 </td>
             </tr>`)
   );
