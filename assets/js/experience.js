@@ -9,14 +9,14 @@ const exp = [
     // cardImage: "assets/images/experience-page/flipkart.jpg",
     // place: "Flipkart",
     time: "(Sep, 2020 - present)",
-    desp: "<li>Increased master's students' data analysis skills, achieving 50% average improvement.</li>"// <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    desp: "<li>Increased master's students' data analysis skills, achieving 50% average improvement.</li>",// <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
   },
   {
     title: "IT research services",
     // cardImage: "assets/images/experience-page/gsoc.png",
     // place: "Google Summer Of Code",
-    time: "(Sep - Sep, 2019-2020)",
-    desp: "<li>Dioni: Computing Infrastructure for Big-Data Processing and Analysis.</li><li>• Led high-performance computations for processing and analyzing up to 20 TB of data.</li><li>• Oversaw meteorological software installation and execution for optimal performance.</li>"//<li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    time: "(Sep, 2022 - Sep, 2023)",
+    desp: "<li>Dioni: Computing Infrastructure for Big-Data Processing and Analysis.</li><li>Led high-performance computations for processing and analyzing up to 20 TB of data.</li><li>Oversaw meteorological software installation and execution for optimal performance.</li>",//<li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
   },
   // {
   //   title: "Research Intern",
