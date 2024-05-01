@@ -4,68 +4,37 @@ AOS.init();
 
 const moocs = document.querySelector(".moocs");
 const moocscards = [
-  {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    {
+    title: "Python Developer",
+    cardImage: "",
+    moocLink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/8186899a34096faa2477ac3d182544d6ba82a388",
+  },
+      {
+    title: "SQL Fundamentals",
+    cardImage: "",
+    moocLink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/4eb0c741c4f340b5de6672edcb08dc9da32e2135",
+  },
+        {
+    title: "Python Fundamentals",
+    cardImage: "",
+    moocLink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/1a346cd11a63d5cbf6fe2b71766d57e1b9e0778c",
   },
   {
-    title: "Python",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/topic/python/",
+    title: "Data Scientist in Python",
+    cardImage: "",
+    moocLink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/2ee0cbf63e6b26fc75d81629ba463a8f80f86ffd",
   },
-  {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+          {
+    title: "Machine Learning Fundamentals",
+    cardImage: "",
+    moocLink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/51b84ad4f4cf3231a5ebbbb43a2cc62445351c9a",
   },
-  {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+            {
+    title: "Data Analyst",
+    cardImage: "",
+    moocLink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/74c74841fa1816114876f59f719985f0e41b4504",
   },
-  {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
-  {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
-    title: "Xarray",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/projects/xarray",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
-  },
+
 ];
 
 const experience = [
