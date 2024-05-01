@@ -74,7 +74,7 @@ const projects = [
   },
   {
     title: "Interdecadal Changes of the MERRA-2 Incoming Surface Solar Radiation (SSR) and Evaluation against GEBA & BSRN Stations",
-    cardImage: "assets/images/project-page/nerra2.jpeg",
+    cardImage: "assets/images/project-page/merra2.png",
     description:
       "Paper: https://www.mdpi.com/2076-3417/12/19/10176",
     tagimg:
