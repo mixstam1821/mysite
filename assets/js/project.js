@@ -6,7 +6,7 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Simple_ReactJS_Projects",
+    title: "SimpleReactProjects",
     cardImage: "assets/images/project-page/weather2.png",
     description: "A collection of web apps built using basic react.",
     tagimg: "https://github.com/mixstam1821/ReactJS_simple_projects",
