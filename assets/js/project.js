@@ -48,7 +48,7 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "PaperContributiontoGDB",
+    title: "PaperContributionGDB",
     cardImage: "assets/images/project-page/contri.jpeg",
     description: "Paper: https://www.mdpi.com/2673-4931/26/1/34",
     tagimg: "",
