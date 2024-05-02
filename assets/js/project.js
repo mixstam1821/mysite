@@ -48,7 +48,7 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "On_the_Contribution_of_Aerosols_and_Clouds_to_Global_Dimming_and_Brightening_Using_a_Radiative_Transfer_Model,_ISCCP-H_Cloud_and_MERRA-2_Aerosol_Optical_Properties",
+    title: "PaperContributiontoGDB",
     cardImage: "assets/images/project-page/contri.jpeg",
     description: "Paper: https://www.mdpi.com/2673-4931/26/1/34",
     tagimg: "",
@@ -56,7 +56,7 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "The_Global_and_Diffuse_Solar_Radiation_Trends_Using_GEBA_&_BSRN_Ground_Based_Measurements_during_1984–2018",
+    title: "PaperSSRandDiffuse",
     cardImage: "assets/images/project-page/dif.jpeg",
     description:
       "Paper: https://www.mdpi.com/2673-4931/26/1/141",
@@ -65,7 +65,7 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "An_Assessment_of_Global_Dimming_and_Brightening_during_1984–2018_Using_the_FORTH_Radiative_Transfer_Model_and_ISCCP_Satellite_and_MERRA-2_Reanalysis_Data",
+    title: "PaperFORTHGDB",
     cardImage: "assets/images/project-page/forth.png",
     description: "Paper: https://www.mdpi.com/2073-4433/14/8/1258",
     tagimg:
@@ -74,7 +74,7 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "Interdecadal_Changes_of_the_MERRA-2_Incoming_Surface_Solar_Radiation_(SSR)_and_Evaluation_against_GEBA_&_BSRN_Stations",
+    title: "PaperMERRA2GDB",
     cardImage: "assets/images/project-page/merra2.png",
     description:
       "Paper: https://www.mdpi.com/2076-3417/12/19/10176",
@@ -84,7 +84,7 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "DataCamp:_Data_Scientist_with_Python:_Projects",
+    title: "DataScientistProjects",
     cardImage: "assets/images/education-page/datacamp.png",
     description: "Data Scientist with Python: Projects",
     tagimg:
@@ -93,7 +93,7 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "DataCamp:_SQL_Fundamentals:_Projects",
+    title: "SQLProjects",
     cardImage: "assets/images/education-page/datacamp.png",
     description: "SQL Fundamentals: Projects",
     tagimg:
@@ -111,7 +111,7 @@ const projects = [
     Githublink: "",
   },
     {
-    title: "My_Java_Small_Projects",
+    title: "MyJavaSmallProjects",
     cardImage: "assets/images/project-page/java.png",
     description: "",
     tagimg:
@@ -120,7 +120,7 @@ const projects = [
     Githublink: "https://github.com/mixstam1821/java_small_examples",
   },
     {
-    title: "My_JavaScript_Small_Projects",
+    title: "MyJavaScriptSmallProjects",
     cardImage: "assets/images/project-page/js.png",
     description: "",
     tagimg:
@@ -130,13 +130,40 @@ const projects = [
   },
 
       {
-    title: "My_Python_Small_Projects",
+    title: "MyPythonSmallProjects",
     cardImage: "assets/images/project-page/py.jpg",
     description: "",
     tagimg:
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "https://github.com/mixstam1821/Python_Projects",
     Githublink: "https://github.com/mixstam1821/Python_Projects",
+  },
+        {
+    title: "EchartsProjects",
+    cardImage: "assets/images/project-page/echarts.png",
+    description: "",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "https://michael94stamatis.w3spaces.com/next001.html",
+    Githublink: "",
+  },
+        {
+    title: "AspisB",
+    cardImage: "assets/images/project-page/aspis.png",
+    description: "",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "https://aspis-b.neocities.org/",
+    Githublink: "",
+  },
+          {
+    title: "AirQualityStation",
+    cardImage: "assets/images/project-page/air.png",
+    description: "",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "https://aqp.eo.esa.int/map/",
+    Githublink: "",
   },
 ];
 
