@@ -13,6 +13,6 @@ anime({
     loop: true,
     easing: "easeInOutSine",
     direction: "alternate",
-    scale: [{ value: 1 }, { value: 1.4 }, { value: 1, delay: 250 }],
+    scale: [{ value: 1 }, { value: 1.4 }, { value: 1, delay: 60 }],
     rotateY: { value: "+=180", delay: 200 },
 });
