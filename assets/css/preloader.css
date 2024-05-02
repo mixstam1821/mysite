@@ -12,9 +12,9 @@
     --electron-color-hex: #36C5F0;
     --electron-size : calc(var(--atom-size) / 25);
     --electron-orbit-size : calc(var(--atom-size) / 2.5);
-    --electron-speed : 1.2s;
-    --electron-speed-alpha : 1s;
-    --electron-speed-omega : .8s;
+    --electron-speed : 0.6s;
+    --electron-speed-alpha : 0.5s;
+    --electron-speed-omega : .4s;
 }
 
 .loader-container {
@@ -38,7 +38,7 @@
   align-items: center;
   width: var(--atom-size);
   height: var(--atom-size);
-  animation: 8s atom infinite cubic-bezier(1, .25, 0, .75);
+  animation: 4s atom infinite cubic-bezier(1, .25, 0, .75);
 }
 @keyframes atom{
   0% {    
@@ -84,7 +84,7 @@
     background: var(--electron-color-hex); /* var(--atom-color-hex); */
     border-radius: 100%;
     box-shadow: 0 0 3px 0 var(--atom-color-hex);
-    animation: 3s nucleus infinite cubic-bezier(.65, 0, .35, 1);
+    animation: 1.5s nucleus infinite cubic-bezier(.65, 0, .35, 1);
 }
 @keyframes nucleus {
     0% { transform: scale(1); }
@@ -222,7 +222,7 @@
 }
 
 .disappear {
-  animation: vanish 1s forwards;
+  animation: vanish 0.5s forwards;
 }
 
 @keyframes vanish {
