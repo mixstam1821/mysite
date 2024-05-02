@@ -48,7 +48,7 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "PaperContributionGDB",
+    title: "PaperContribGDB",
     cardImage: "assets/images/project-page/contri.jpeg",
     description: "Paper: https://www.mdpi.com/2673-4931/26/1/34",
     tagimg: "",
@@ -111,7 +111,7 @@ const projects = [
     Githublink: "",
   },
     {
-    title: "MyJavaSmallProjects",
+    title: "JavaProjects",
     cardImage: "assets/images/project-page/java.png",
     description: "",
     tagimg:
@@ -120,7 +120,7 @@ const projects = [
     Githublink: "https://github.com/mixstam1821/java_small_examples",
   },
     {
-    title: "MyJavaScriptSmallProjects",
+    title: "JavaScriptProjects",
     cardImage: "assets/images/project-page/js.png",
     description: "",
     tagimg:
@@ -130,7 +130,7 @@ const projects = [
   },
 
       {
-    title: "MyPythonSmallProjects",
+    title: "PythonProjects",
     cardImage: "assets/images/project-page/py.jpg",
     description: "",
     tagimg:
