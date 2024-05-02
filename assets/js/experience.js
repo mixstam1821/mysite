@@ -18,7 +18,13 @@ const exp = [
     time: "(Sep, 2022 - Sep, 2023)",
     desp: "<li>Dioni: Computing Infrastructure for Big-Data Processing and Analysis.</li><li>Led high-performance computations for processing and analyzing up to 20 TB of data.</li><li>Oversaw meteorological software installation and execution for optimal performance.</li>",
   },
-
+  {
+    title: "Environmental Research Service",
+    cardImage: "assets/images/project-page/epir.jpg",
+    place: "Ioannina",
+    time: "(May, 2021 - Jul, 2021)",
+    desp: "<li>Registration of meteorological monitoring infrastructure in the Region of Epirus, IR2MA</li>",
+  },
 ];
 
 const showCards2 = () => {
