@@ -41,7 +41,39 @@ const research = [
     absbox: "absPopup2",
   },
   
-  
+    {
+    title: "The Global and Diffuse Solar Radiation Trends Using GEBA & BSRN Ground Based Measurements during 1984–2018",
+    authors:
+      "Stamatis, M.; Ioannou, P.; Korras-Carraca, M.B.; Hatzianastassiou, N.",
+    conferences:
+      "",
+    researchYr: 2023,
+    citebox: "popup3",
+    image: "assets/images/project-page/dif.jpeg",
+   citation: {
+      vancouver:
+        "Stamatis, M.; Ioannou, P.; Korras-Carraca, M.B.; Hatzianastassiou, N. The Global and Diffuse Solar Radiation Trends Using GEBA & BSRN Ground Based Measurements during 1984–2018. Environ. Sci. Proc. 2023, 26, 141. https://doi.org/10.3390/environsciproc2023026141",
+    },
+    abstract:
+"Surface solar radiation (SSR) is a crucial parameter for both the Earth’s climate and human activities, and it consists of two components: the direct beam from the sun and diffuse radiation, with the latter being scattered by atmospheric molecules, aerosols, or clouds. The multidecadal variations of SSR, known as Global Dimming and Brightening (GDB), should also arise from a corresponding variability of either the direct or the diffuse radiation. Thus, the determination of the trends of both the direct and the diffuse radiation is important for showing the causes of GDB. In the present study, we estimate the trends of global and diffuse radiation on a global scale during the period 1984–2018, using worldwide reference ground-based measurements from the Global Energy Balance Archive (GEBA) and the Baseline Surface Radiation Network (BSRN). An increasing tendency of SSR is observed over most locations on our planet, while a decreasing trend occurs in India. On the other hand, the diffuse radiation has decreased over Europe and parts of Asia, whereas it has increased over the USA, India, and East Asia.",
+      absbox: "absPopup3",
+  },
+
+    {
+    title: "On the Contribution of Aerosols and Clouds to Global Dimming and Brightening Using a Radiative Transfer Model, ISCCP-H Cloud and MERRA-2 Aerosol Optical Properties",
+    authors:
+      "Stamatis, M.; Hatzianastassiou, N.; Korras-Carraca, M.B.; Matsoukas, C.; Wild, M.; Vardavas, I.",
+    conferences:
+      "",
+    researchYr: 2023,
+    citebox: "popup4",
+    image: "assets/images/project-page/contri.jpeg",
+   citation: {
+      Vancouver:
+"Stamatis, M.; Hatzianastassiou, N.; Korras-Carraca, M.-B.; Matsoukas, C.; Wild, M.; Vardavas, I. On the Contribution of Aerosols and Clouds to Global Dimming and Brightening Using a Radiative Transfer Model, ISCCP-H Cloud and MERRA-2 Aerosol Optical Properties. Environ. Sci. Proc. 2023, 26, 34. https://doi.org/10.3390/environsciproc2023026034",    },
+    abstract:
+"The interdecadal changes of the incident solar radiation at the Earth’s surface (SSR) are mainly driven by changes in clouds and aerosols. In order to investigate their contribution to the SSR changes (global dimming and brightening or GDB), the FORTH radiative transfer model (RTM) is used to compute the SSR fluxes. The cloud input data were taken from satellite observations of ISCCP-H, while aerosols and meteorological data were taken from the MERRA-2 reanalysis dataset. The RTM operates on a monthly basis and in 0.5° × 0.625° latitude-longitude spatial resolution. The GDB was also computed keeping constant at their initial 1984 values, each input parameter that was examined, resulting in a GDB with the ‘frozen’ parameter. The contribution of each parameter to the GDB is defined as the subtraction of the frozen GDB from the base-run GDB, and the positive/negative values of the contribution indicate that the interdecadal variability of the examined parameter increased/decreased the SSR. The aerosol optical depth (AOD) produced a dimming in India, Amazonia, and S. China, whereas it induced a brightening in Europe and Mexico. On the other hand, the total cloud cover (TCC) changes caused a dimming over the Arctic, Australia, and the South Ocean against a brightening in Europe, Mexico, the Middle East, and South America. The global mean contribution of changing AOD is 0.37 W/m2, and for TCC, it is 4.7 W/m2, indicating that globally, the counteraction of cloud cover to the overall global dimming is larger. Opposite contributions to GDB from AOD and TCC may occur over specific regions, highlighting the complexity of the causes of the GDB phenomenon.",    absbox: "absPopup2",
+  },
 ];
 AOS.init();
 const fillData = () => {
