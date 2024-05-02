@@ -6,32 +6,32 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
     {
     title: "Python Developer",
-    cardImage: "",
+    cardImage: "assets/images/education-page/datacamp.png",
     moocLink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/8186899a34096faa2477ac3d182544d6ba82a388",
   },
       {
     title: "SQL Fundamentals",
-    cardImage: "",
+    cardImage: "assets/images/education-page/datacamp.png",
     moocLink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/4eb0c741c4f340b5de6672edcb08dc9da32e2135",
   },
         {
     title: "Python Fundamentals",
-    cardImage: "",
+    cardImage: "assets/images/education-page/datacamp.png",
     moocLink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/1a346cd11a63d5cbf6fe2b71766d57e1b9e0778c",
   },
   {
     title: "Data Scientist in Python",
-    cardImage: "",
+    cardImage: "assets/images/education-page/datacamp.png",
     moocLink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/2ee0cbf63e6b26fc75d81629ba463a8f80f86ffd",
   },
           {
     title: "Machine Learning Fundamentals",
-    cardImage: "",
+    cardImage: "assets/images/education-page/datacamp.png",
     moocLink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/51b84ad4f4cf3231a5ebbbb43a2cc62445351c9a",
   },
             {
     title: "Data Analyst",
-    cardImage: "",
+    cardImage: "assets/images/education-page/datacamp.png",
     moocLink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/74c74841fa1816114876f59f719985f0e41b4504",
   },
 
