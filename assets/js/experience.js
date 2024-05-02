@@ -20,14 +20,14 @@ const exp = [
   },
   {
     title: "Environmental Research Services",
-    cardImage: "assets/images/project-page/epirusreg.jpeg",
+    cardImage: "assets/images/experience-page/epirusreg.jpeg",
     place: "Ioannina",
     time: "(May, 2021 - Jul, 2021)",
     desp: "<li>Registration of meteorological monitoring infrastructure in the Region of Epirus, IR2MA</li>",
   },
     {
     title: "Teaching Assistant: Vector Analysis",
-    cardImage: "assets/images/project-page/phys.jpeg",
+    cardImage: "assets/images/experience-page/phys.jpeg",
     place: "Physics Department, University of Ioannina, Ioannina",
     time: "(Mar, 2021 - Sep, 2021)",
     desp: "<li>Vector Analysis tutorial exercises- Spring Semester 2021 - Department of Physics</li>",
