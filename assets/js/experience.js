@@ -7,9 +7,9 @@ const exp = [
   {
     title: "Teaching Assistant - Programming Courses",
     cardImage: "assets/images/experience-page/meteo-lab.png",
-    place: "Ioannina",
+    place: "Laboratory of Meteorology and Climatology, University of Ioannina, Ioannina",
     time: "(Mar, 2022 - present)",
-    desp: "<li>Increased master's students' programming and data analysis skills, achieving 50% average improvement.</li>",
+    desp: "<li>Teaching basic programming concepts.</li><li>Teaching basic data analysis tools in Python.</li><li>Increased master's students' programming and data analysis skills, achieving 50% average improvement.</li>",
   },
   {
     title: "IT services",
@@ -19,11 +19,18 @@ const exp = [
     desp: "<li>Dioni: Computing Infrastructure for Big-Data Processing and Analysis.</li><li>Led high-performance computations for processing and analyzing up to 20 TB of data.</li><li>Oversaw meteorological software installation and execution for optimal performance.</li>",
   },
   {
-    title: "Environmental Research Service",
-    cardImage: "assets/images/project-page/epir.jpg",
+    title: "Environmental Research Services",
+    cardImage: "assets/images/project-page/epirusreg.jpeg",
     place: "Ioannina",
     time: "(May, 2021 - Jul, 2021)",
     desp: "<li>Registration of meteorological monitoring infrastructure in the Region of Epirus, IR2MA</li>",
+  },
+    {
+    title: "Teaching Assistant: Vector Analysis",
+    cardImage: "assets/images/project-page/phys.jpeg",
+    place: "Physics Department, University of Ioannina, Ioannina",
+    time: "(Mar, 2021 - Sep, 2021)",
+    desp: "<li>Vector Analysis tutorial exercises- Spring Semester 2021 - Department of Physics</li>",
   },
 ];
 
