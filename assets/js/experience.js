@@ -18,6 +18,13 @@ const exp = [
     time: "(Mar, 2022 - present)",
     desp: "<li>Teaching basic programming concepts.</li><li>Teaching basic data analysis tools in Python.</li><li>Increased master's students' programming and data analysis skills, achieving 50% average improvement.</li>",
   },
+{
+    title: "Freelancer: Software Development",
+    cardImage: "assets/images/experience-page/logoStamazingApps.png",
+    place: "Remote",
+    time: "(May, 2023 - present)",
+    desp: "<li>Data and Web Apps.</li><li>Data Science.</li>
+  },
   {
     title: "Teacher - School Physics and Maths",
     cardImage: "assets/images/experience-page/phys.png",
@@ -25,6 +32,7 @@ const exp = [
     time: "(Sep, 2016 - present)",
     desp: "<li>Teaching school lessons of physics, maths and chemistry to students, guiding them to the top.</li>",
   },
+
   {
     title: "IT services",
     cardImage: "assets/images/experience-page/dioni.jpeg",
