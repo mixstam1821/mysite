@@ -5,31 +5,50 @@ const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
 const projects = [
-  {
-    title: "SimpleReactProjects",
-    cardImage: "assets/images/project-page/weather2.png",
-    description: "A collection of web apps built using basic react.",
-    tagimg: "https://github.com/mixstam1821/ReactJS_simple_projects",
-    Previewlink: "https://github.com/mixstam1821/ReactJS_simple_projects",
-    Githublink: "https://github.com/mixstam1821/ReactJS_simple_projects",
+
+
+    {
+    title: "ERMES",
+    cardImage: "assets/images/project-page/ERMES.png",
+    description: "ERA5 Meteorology Explorer System",
+    tagimg: "https://github.com/mixstam1821/ERMES",
+    Previewlink: "https://py.cafe/app/mixstam1821/ERMES%3A%20ERA5%20Meteorology%20Explorer%20System",
+    Githublink: "https://github.com/mixstam1821/ERMES",
   },
+
+      {
+    title: "Cyclops",
+    cardImage: "assets/images/project-page/Cyclops.png",
+    description: "Live weather conditions via OpenWeatherMap",
+    tagimg: "https://github.com/mixstam1821/Cyclops",
+    Previewlink: "https://py.cafe/mixstam1821/Cyclops",
+    Githublink: "https://github.com/mixstam1821/Cyclops",
+  },
+  // {
+  //   title: "SimpleReactProjects",
+  //   cardImage: "assets/images/project-page/weather2.png",
+  //   description: "A collection of web apps built using basic react.",
+  //   tagimg: "https://github.com/mixstam1821/ReactJS_simple_projects",
+  //   Previewlink: "https://github.com/mixstam1821/ReactJS_simple_projects",
+  //   Githublink: "https://github.com/mixstam1821/ReactJS_simple_projects",
+  // },
   
-  {
-    title: "EarthSense",
-    cardImage: "assets/images/project-page/app1.jpeg",
-    description: "A groundbreaking research project emerging from my PhD study ✨✨, delving into the complexities of Global Dimming and Brightening ☀️☁️🏭🌫️, by Michael Stamatis with ❤️ 🇬🇷 🌐https://michael94stamatis.w3spaces.com/next001.html",
-    tagimg: "",
-    Previewlink: "https://michael94stamatis.w3spaces.com/next001.html",
-    Githublink: "",
-  },
-  {
-    title: "GaiaSense",
-    cardImage: "assets/images/project-page/app2.jpeg",
-    description: "An interesting research project from my PhD studies 💡, focusing on Surface Solar Radiation ☀️, with 💖 by Michael Stamatis 🇬🇷 . Check out my research: https://www.researchgate.net/profile/Michael-Stamatis-2.",
-    tagimg: "",
-    Previewlink: "",
-    Githublink: "",
-  },
+  // {
+  //   title: "EarthSense",
+  //   cardImage: "assets/images/project-page/app1.jpeg",
+  //   description: "A groundbreaking research project emerging from my PhD study ✨✨, delving into the complexities of Global Dimming and Brightening ☀️☁️🏭🌫️, by Michael Stamatis with ❤️ 🇬🇷 🌐https://michael94stamatis.w3spaces.com/next001.html",
+  //   tagimg: "",
+  //   Previewlink: "https://michael94stamatis.w3spaces.com/next001.html",
+  //   Githublink: "",
+  // },
+  // {
+  //   title: "GaiaSense",
+  //   cardImage: "assets/images/project-page/app2.jpeg",
+  //   description: "An interesting research project from my PhD studies 💡, focusing on Surface Solar Radiation ☀️, with 💖 by Michael Stamatis 🇬🇷 . Check out my research: https://www.researchgate.net/profile/Michael-Stamatis-2.",
+  //   tagimg: "",
+  //   Previewlink: "",
+  //   Githublink: "",
+  // },
   {
     title: "DIONI",
     cardImage: "assets/images/project-page/dioni.jpeg",
@@ -47,6 +66,23 @@ const projects = [
     Previewlink: "",
     Githublink: "",
   },
+    {
+    title: "PaperGDBdrivers",
+    cardImage: "assets/images/research-page/p4.jpeg",
+    description: "Paper: https://doi.org/10.1016/j.atmosres.2025.108140",
+    tagimg: "",
+    Previewlink: "https://doi.org/10.1016/j.atmosres.2025.108140",
+    Githublink: "",
+  },
+    {
+    title: "PaperGDBWarmingLinks",
+    cardImage: "assets/images/research-page/p3.jpeg",
+    description: "Paper: https://doi.org/10.1007/s10584-024-03810-6",
+    tagimg: "",
+    Previewlink: "https://doi.org/10.1007/s10584-024-03810-6",
+    Githublink: "",
+  },
+  
   {
     title: "PaperContribGDB",
     cardImage: "assets/images/project-page/contri.jpeg",
@@ -92,15 +128,15 @@ const projects = [
     Previewlink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/2ee0cbf63e6b26fc75d81629ba463a8f80f86ffd",
     Githublink: "",
   },
-  {
-    title: "SQLProjects",
-    cardImage: "assets/images/education-page/datacamp.png",
-    description: "SQL Fundamentals: Projects",
-    tagimg:
-      "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
-    Previewlink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/4eb0c741c4f340b5de6672edcb08dc9da32e2135",
-    Githublink: "",
-  },
+  // {
+  //   title: "SQLProjects",
+  //   cardImage: "assets/images/education-page/datacamp.png",
+  //   description: "SQL Fundamentals: Projects",
+  //   tagimg:
+  //     "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
+  //   Previewlink: "https://www.datacamp.com/completed/statement-of-accomplishment/track/4eb0c741c4f340b5de6672edcb08dc9da32e2135",
+  //   Githublink: "",
+  // },
   {
     title: "Registration of meteorological monitoring infrastructure in the Region of Epirus",
     cardImage: "assets/images/project-page/epir.jpg",
@@ -110,61 +146,61 @@ const projects = [
     Previewlink: "",
     Githublink: "",
   },
-    {
-    title: "JavaProjects",
-    cardImage: "assets/images/project-page/java.png",
-    description: "",
-    tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "https://github.com/mixstam1821/java_small_examples",
-    Githublink: "https://github.com/mixstam1821/java_small_examples",
-  },
-    {
-    title: "JavaScriptProjects",
-    cardImage: "assets/images/project-page/js.png",
-    description: "",
-    tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "https://github.com/mixstam1821/my_javascript_projects",
-    Githublink: "https://github.com/mixstam1821/my_javascript_projects",
-  },
+  //   {
+  //   title: "JavaProjects",
+  //   cardImage: "assets/images/project-page/java.png",
+  //   description: "",
+  //   tagimg:
+  //     "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+  //   Previewlink: "https://github.com/mixstam1821/java_small_examples",
+  //   Githublink: "https://github.com/mixstam1821/java_small_examples",
+  // },
+  //   {
+  //   title: "JavaScriptProjects",
+  //   cardImage: "assets/images/project-page/js.png",
+  //   description: "",
+  //   tagimg:
+  //     "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+  //   Previewlink: "https://github.com/mixstam1821/my_javascript_projects",
+  //   Githublink: "https://github.com/mixstam1821/my_javascript_projects",
+  // },
 
-      {
-    title: "PythonProjects",
-    cardImage: "assets/images/project-page/py.jpg",
-    description: "",
-    tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "https://github.com/mixstam1821/Python_Projects",
-    Githublink: "https://github.com/mixstam1821/Python_Projects",
-  },
-        {
-    title: "EchartsProjects",
-    cardImage: "assets/images/project-page/echarts.png",
-    description: "",
-    tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "https://michael94stamatis.w3spaces.com/next001.html",
-    Githublink: "",
-  },
-        {
-    title: "AspisB",
-    cardImage: "assets/images/project-page/aspis.png",
-    description: "",
-    tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "https://aspis-b.neocities.org/",
-    Githublink: "",
-  },
-          {
-    title: "AirQualityStation",
-    cardImage: "assets/images/project-page/air.png",
-    description: "",
-    tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "https://aqp.eo.esa.int/map/",
-    Githublink: "",
-  },
+  //     {
+  //   title: "PythonProjects",
+  //   cardImage: "assets/images/project-page/py.jpg",
+  //   description: "",
+  //   tagimg:
+  //     "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+  //   Previewlink: "https://github.com/mixstam1821/Python_Projects",
+  //   Githublink: "https://github.com/mixstam1821/Python_Projects",
+  // },
+  //       {
+  //   title: "EchartsProjects",
+  //   cardImage: "assets/images/project-page/echarts.png",
+  //   description: "",
+  //   tagimg:
+  //     "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+  //   Previewlink: "https://michael94stamatis.w3spaces.com/next001.html",
+  //   Githublink: "",
+  // },
+  //       {
+  //   title: "AspisB",
+  //   cardImage: "assets/images/project-page/aspis.png",
+  //   description: "",
+  //   tagimg:
+  //     "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+  //   Previewlink: "https://aspis-b.neocities.org/",
+  //   Githublink: "",
+  // },
+  //         {
+  //   title: "AirQualityStation",
+  //   cardImage: "assets/images/project-page/air.png",
+  //   description: "",
+  //   tagimg:
+  //     "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+  //   Previewlink: "https://aqp.eo.esa.int/map/",
+  //   Githublink: "",
+  // },
 ];
 
 // function for rendering project cards data
