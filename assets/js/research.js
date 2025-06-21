@@ -12,7 +12,7 @@ const research = [
     conferences:
       "",
     researchYr: 2025,
-    citebox: "popup1", 
+    citebox: "popup6", 
     image: "assets/images/research-page/p4.png",
    citation: {
       vancouver:
@@ -30,7 +30,7 @@ const research = [
     conferences:
       "",
     researchYr: 2024,
-    citebox: "popup1", 
+    citebox: "popup5", 
     image: "assets/images/research-page/p3.png",
    citation: {
       vancouver:
