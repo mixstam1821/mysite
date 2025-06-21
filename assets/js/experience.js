@@ -4,6 +4,13 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
+    {
+    title: "Junior Software Developer",
+    cardImage: "assets/images/experience-page/niki_logo_dig-eng-1-e1648551474106.png",
+    place: "NIKI Digital Engineering, Katsikas, Ioannina",
+    time: "(June, 2024 - present)",
+    desp: "<li>Python scripting.</li><li>Quality Assurance.</li><li>Data Science.</li>",
+  },
   {
     title: "Teaching Assistant - Programming Courses",
     cardImage: "assets/images/experience-page/meteo-lab.png",
