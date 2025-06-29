@@ -24,6 +24,26 @@ const projects = [
     Previewlink: "https://py.cafe/app/mixstam1821/Cyclops",
     Githublink: "https://github.com/mixstam1821/Cyclops",
   },
+
+          {
+    title: "Aether",
+    cardImage: "assets/images/project-page/Ather.png",
+    description: "Aether: Fast NetCDF Explorer",
+    tagimg: "https://github.com/mixstam1821/Aether",
+    Previewlink: "https://github.com/mixstam1821/Aether",
+    Githublink: "https://github.com/mixstam1821/Aether",
+  },
+
+          {
+    title: "Apollo",
+    cardImage: "assets/images/project-page/Apollo.png",
+    description: "Live weather conditions via OpenWeatherMap",
+    tagimg: "https://github.com/mixstam1821/Apollo",
+    Previewlink: "https://huggingface.co/spaces/mixstam1453/Apollo",
+    Githublink: "https://github.com/mixstam1821/Apollo",
+  },
+
+    
   // {
   //   title: "SimpleReactProjects",
   //   cardImage: "assets/images/project-page/weather2.png",
