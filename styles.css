@@ -147,7 +147,7 @@ body {
     content: '';
     position: absolute;
     width: 0px;
-    background: var(--primary-color);
+    background: red;
     top: 0;
     bottom: 0;
     left: 50%;
