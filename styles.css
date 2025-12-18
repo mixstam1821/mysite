@@ -143,16 +143,7 @@ body {
     margin: 0 auto;
 }
 
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 2px;
-    background: var(--primary-color);
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
+
 
 .timeline-item {
     padding: 20px 40px;
