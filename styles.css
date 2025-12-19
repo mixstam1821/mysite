@@ -289,8 +289,6 @@ h3 {
     height: 100%;
     border-radius: 50%;
     padding: 8px;
-    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
-    animation: borderRotate 10s linear infinite;
 }
 
 .profile-image {
@@ -301,7 +299,6 @@ h3 {
     border: 4px solid var(--darker-bg);
     padding: 4px;
     background-color: var(--darker-bg);
-    transition: transform 0.3s ease;
 }
 
 .profile-image-container:hover .profile-image {
@@ -316,7 +313,6 @@ h3 {
     right: -2px;
     bottom: -2px;
     border-radius: 50%;
-    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     z-index: -1;
 
 }
