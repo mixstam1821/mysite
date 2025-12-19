@@ -15,7 +15,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
 }
-
+.abstract {
+    display: none;
+    margin-top: 10px;
+}
 /* Navigation */
 .navbar {
     background-color: transparent;
