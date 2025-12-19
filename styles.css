@@ -300,8 +300,7 @@ h3 {
     object-fit: cover;
     border: 4px solid var(--darker-bg);
     padding: 4px;
-    background-color: var(--darker-bg);
-    transition: transform 0.3s ease;
+
 }
 
 .profile-image-container:hover .profile-image {
