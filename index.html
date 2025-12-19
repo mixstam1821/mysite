@@ -88,9 +88,7 @@ Outside of work, I teach physics and math to high school students and enjoy star
 
                         
                     </p>
-                <p class="mt-3">
-    Feel free to reach out: mixstam1453@gmail.com
-</p>
+
 <div class="skills mt-4">
     <h3 class="h5 mb-3 text-center">Technical Skills</h3>
     <div class="skill-tags mb-3">
@@ -522,12 +520,14 @@ communicate outcomes effectively.</li>
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
                 <p class="lead mb-4">I'm always open to discussing new projects, opportunities, or collaborations.</p>
-                <a href="mailto:mixstam1453@gmail.com" class="btn btn-primary btn-lg">
-                    <i class="fas fa-envelope me-2"></i>Contact Me
-                </a>
-                <a href="https://drive.google.com/file/d/19yA0kx0feqxG6iHCoVYc77MjFMi6XyWd/view?usp=sharing" download class="btn btn-outline-light btn-lg mt-3">
-    <i class="fas fa-download me-2"></i>Download CV
-</a>
+                <p class="mt-3">
+    Feel free to reach out: mixstam1453@gmail.com
+</p>
+                                <p class="mt-3">
+    Feel free to reach out: mixstam1453@gmail.com
+</p>
+                
+                <a href="https://drive.google.com/file/d/19yA0kx0feqxG6iHCoVYc77MjFMi6XyWd/view?usp=sharing">Download CV</a>
             </div>
         </div>
     </div>
@@ -557,133 +557,108 @@ communicate outcomes effectively.</li>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script>
-    AOS.init({
-        duration: 800,
-        once: true
-    });
-    
-    // Fancy Particles.js configuration with mouse interactions
-    particlesJS('particles-js',
-        {
-            "particles": {
-                "number": {
-                    "value": 100,
-                    "density": {
-                        "enable": true,
-                        "value_area": 800
-                    }
-                },
-                "color": {
-                    "value": ["#4a90e2", "#50c878", "#9b59b6", "#e74c3c"]
-                },
-                "shape": {
-                    "type": ["circle", "triangle", "edge"],
-                    "stroke": {
-                        "width": 0,
-                        "color": "#000000"
-                    }
-                },
-                "opacity": {
-                    "value": 0.6,
-                    "random": true,
-                    "anim": {
-                        "enable": true,
-                        "speed": 1,
-                        "opacity_min": 0.1,
-                        "sync": false
-                    }
-                },
-                "size": {
-                    "value": 4,
-                    "random": true,
-                    "anim": {
-                        "enable": true,
-                        "speed": 3,
-                        "size_min": 0.5,
-                        "sync": false
-                    }
-                },
-                "line_linked": {
-                    "enable": true,
-                    "distance": 150,
-                    "color": "#4a90e2",
-                    "opacity": 0.4,
-                    "width": 1.5
-                },
-                "move": {
-                    "enable": true,
-                    "speed": 3,
-                    "direction": "none",
-                    "random": true,
-                    "straight": false,
-                    "out_mode": "out",
-                    "bounce": false,
-                    "attract": {
-                        "enable": true,
-                        "rotateX": 600,
-                        "rotateY": 1200
-                    }
-                }
-            },
-            "interactivity": {
-                "detect_on": "canvas",
-                "events": {
-                    "onhover": {
-                        "enable": true,
-                        "mode": ["grab", "bubble"]
-                    },
-                    "onclick": {
-                        "enable": true,
-                        "mode": "repulse"
-                    },
-                    "resize": true
-                },
-                "modes": {
-                    "grab": {
-                        "distance": 200,
-                        "line_linked": {
-                            "opacity": 1
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+        // Particles.js configuration
+        particlesJS('particles-js',
+            {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
                         }
                     },
-                    "bubble": {
-                        "distance": 250,
-                        "size": 8,
-                        "duration": 2,
-                        "opacity": 0.8,
-                        "speed": 3
+                    "color": {
+                        "value": "
+#4a90e2"
                     },
-                    "repulse": {
+                    "shape": {
+                        "type": "circle"
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
                         "distance": 150,
-                        "duration": 0.4
+                        "color": "
+#4a90e2",
+                        "opacity": 0.4,
+                        "width": 1
                     },
-                    "push": {
-                        "particles_nb": 4
+                    "move": {
+                        "enable": true,
+                        "speed": 2,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false
                     }
-                }
-            },
-            "retina_detect": true
-        }
-    );
-    
-    // Navbar scroll behavior
-    window.addEventListener('scroll', function() {
-        if (window.scrollY > 50) {
-            document.querySelector('.navbar').classList.add('navbar-scrolled');
-        } else {
-            document.querySelector('.navbar').classList.remove('navbar-scrolled');
-        }
-    });
-    
-    // Smooth scrolling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "grab"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 140,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        }
+                    }
+                },
+                "retina_detect": true
+            }
+        );
+        // Navbar scroll behavior
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                document.querySelector('.navbar').classList.add('navbar-scrolled');
+            } else {
+                document.querySelector('.navbar').classList.remove('navbar-scrolled');
+            }
+        });
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
             });
         });
-    });
-</script>
+    </script>
+
+
 
 
 
