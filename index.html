@@ -70,10 +70,10 @@
     </section>
 
     <!-- About Section -->
-<section id="about" class="section">
+<section id="about" class="section" style="min-height: 100vh; display: flex; align-items: center; justify-content: center;">
     <div class="container text-center">
         <h2 class="section-title" data-aos="fade-up">About Me</h2>
-        <div class="row align-items-center">
+        <div class="row align-items-center justify-content-center">
             <div class="col-lg-6" data-aos="fade-center">
                 <p class="lead">
 I'm a Data Engineer at NIKI Digital Engineering with a PhD in Atmospheric Sciences, where I spent years wrestling with massive climate datasets and building tools to make sense of them. 
@@ -444,7 +444,13 @@ communicate outcomes effectively.</li>
 
                     </div>
 
-
+<div class="publication-item" data-aos="fade-up" data-aos-delay="100">
+    <h3>Interdecadal Changes of the MERRA-2 Incoming Surface Solar Radiation (SSR) and Evaluation against GEBA & BSRN Stations.</h3>
+    <p class="authors"><b>Stamatis, M.</b>; Hatzianastassiou, N.; Korras-Carraca, M.-B.; Matsoukas, C.; Wild, M.; Vardavas, I.</p>
+    <p class="journal">Appl. Sci. 2022, 12, 10176. https://doi.org/10.3390/app121910176</p>
+    <button class="btn btn-outline-light btn-sm read-more-btn">Read More</button>
+    <p class="abstract">This is the abstract text...</p>
+</div>
                     
                     
                 </div>
@@ -616,5 +622,27 @@ communicate outcomes effectively.</li>
             });
         });
     </script>
+
+
+
+<script>
+document.querySelectorAll('.read-more-btn').forEach(button => {
+    button.addEventListener('click', function(e) {
+        e.preventDefault();
+        const abstract = this.nextElementSibling;
+        
+        if (abstract.style.display === 'none' || abstract.style.display === '') {
+            abstract.style.display = 'block';
+            this.textContent = 'Read Less';
+        } else {
+            abstract.style.display = 'none';
+            this.textContent = 'Read More';
+        }
+    });
+});
+</script>
+
+
+    
 </body>
 </html>
