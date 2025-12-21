@@ -45,6 +45,24 @@ h3 {
     display: none;
     margin-top: 10px;
 }
+
+.skill-proficient {
+    background-color: #2563eb;
+    color: white;
+    font-weight: 600;
+}
+
+.skill-intermediate {
+    background-color: #60a5fa;
+    color: white;
+}
+
+.skill-basic {
+    background-color: #dbeafe;
+    color: #1e40af;
+}
+
+
 /* Navigation */
 .navbar {
     background-color: transparent;
@@ -79,6 +97,11 @@ h3 {
     background-color: var(--secondary-color);
     transition: width 0.3s ease;
 }
+
+
+
+
+
 
 .nav-link:hover::after {
     width: 100%;
