@@ -1,12 +1,12 @@
 /* Global Styles */
 :root {
-    --primary-color: #6f4e37;   /* medium coffee brown */
-    --secondary-color: #c19a6b; /* latte / light caramel */
-    --dark-bg: #3e2723;         /* espresso dark brown */
-    --darker-bg: #2c1b16;       /* almost black coffee */
-    --light-text: #f5f0e1;      /* cream */
-    --lighter-text: #fff8e7;    /* frothy milk */
-    --gray-text: #a89f91;       /* muted brown/gray */
+    --primary-color: #6f4e37;   /* medium coffee brown – for buttons, highlights */
+    --secondary-color: #a67c52; /* light caramel – secondary accents */
+    --main-bg: #f3e8dd;         /* light cappuccino / latte – main background */
+    --darker-bg: #d6c4b5;       /* slightly darker beige – sections or cards */
+    --light-text: #3e2723;      /* dark coffee – main text */
+    --lighter-text: #5c4033;    /* medium coffee – secondary text */
+    --gray-text: #8d7b6b;       /* muted coffee/gray – less important text */
 }
 
 
